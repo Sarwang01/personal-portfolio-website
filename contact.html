@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page </title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <header class="header" style="background-color: #e6e6e6;">
+        <a href="#" target ="_blank" class="logo">Sarwang Patel</a>
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li><a href="/index.html" class="navbar-link home-link">Home</a></li>
+                <li><a href="/about.html" class="navbar-link about-link">About Me</a></li>
+                <li><a href="#" class="navbar-link portfolio-link ">Service</a></li>
+                <li><a href="/contact.html" class="navbar-link contact-link">Contact</a></li>
+
+
+            </ul>
+
+        </nav>
+
+        <div class="mobile-navbar-btn">
+            <ion-icon name="menu" class="mobile-nav-icon"></ion-icon>
+            <ion-icon name="close" class="mobile-nav-icon"></ion-icon>
+
+        </div>
+
+    </header>
+
+
+    
+
+
+    <section class="section section-contact">
+        <div class="container">
+            <h2 class="common-heading">contact us</h2>
+        </div>
+    
+        <div class="section-contact-main contact-container">
+            <form action="https://formspree.io/f/xoqbjrdn"
+            method="POST"><!--formspree used for implementaion-->
+                <div class="grid grid-two-column">
+                    <div>
+                        <label for="username"></label>
+                        <input type="text" name="username" placeholder="username" id="username" autocomplete="off" required>
+                    </div>
+                    <div>
+                        <label for="email"></label>
+                        <input type="email" name="email" placeholder="email" id="email" autocomplete="off" required>
+                    </div>
+                    
+                </div>
+    
+                <div>
+                    <label for="subject"></label>
+                    <input type="text" name="subject" placeholder="subject" id="subject" autocomplete="off" required>
+                </div>
+    
+                <div>
+                    <label for="textarea"></label>
+                    <textarea name="textarea" 
+                    id="textarea"
+                     rows="10"
+                      cols="30"
+                      autocomplete="off"
+                      required
+                      min="5"
+                      ></textarea>
+                </div>
+    
+                <div>
+                    <input type="submit" name="submit" id="submit" class="btn">
+                </div>
+            </form>
+        </div>
+    
+    </section>
+
+
+
+    <!--footer -->
+
+<div class="footer-dark">
+    <footer>
+        <div class="container">
+            <div class="col footer-heads" style="text-align: -webkit-center;">
+                <div class="col-sm-6 col-md-3 item">
+                    <h3><a href="#" class="navbar-link home-link">Home</a></h3>
+                    
+                </div>
+                <div class="col-sm-6 col-md-3 item">
+                    <h3><a href="/about.html" class="navbar-link about-link">About Me</a></h3>
+                    
+                </div>
+                <div class="col-md-6 item text">
+                    <h3><a href="/contact.html" class="navbar-link contact-link">Contact</a></h3>
+                    <p>This website is made only for learning purpose.</p>
+                </div>
+               
+            </div>
+            <div class="col item social"><a href="#">
+                <i class="icon ion-social-facebook"></i>
+            </a><a href="#"><i class="icon ion-social-twitter"></i></a>
+            <a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+            <p class="copyright">Sarwang Patel © 2022</p>
+        </div>
+    </footer>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+    
+    <script src="index.js"></script>
+</body>
+</html>
